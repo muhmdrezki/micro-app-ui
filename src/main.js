@@ -40,7 +40,7 @@ export async function mount(props) {
 }
 
 /**
- *  Apply every time   Cut out / uninstall   Method to be called , Usually here we will unload the application instance of micro application 
+ *  Apply every time   Cut out/uninstall   Method to be called , Usually here we will unload the application instance of micro application 
  */
 export async function unmount() {
   instance.$el.innerHTML = '';
